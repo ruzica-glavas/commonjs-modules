@@ -6,9 +6,10 @@ import getHobbies from "./hobbies.js"
 
 
 const peopleFunction = ()=> {
-    return {
-    fullName: getNames (`Luca`, `Rossi`),
-    hobbies : getHobbies (`nuotare`, `camminare`, `correre`)}
+    const fullName= getNames (`Luca`, `Rossi`)
+    const hobbies = getHobbies (`nuotare`, `camminare`, `correre`)
+
+    return {fullName, hobbies}
 }
 
 console.log(peopleFunction())

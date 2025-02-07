@@ -1,8 +1,10 @@
 
 const getNames= (firstName, lastName)=>{
     
-    return {firstName, lastName}}
+    return {firstName, lastName}
+}
 
 console.log(getNames())
 
-module.exports= getNames
+//Metodo ESM
+export default getNames
