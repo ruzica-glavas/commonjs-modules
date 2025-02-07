@@ -1,11 +1,8 @@
 
-const names={
-    firstName:"",
-    lastName: "",
-}
+const getNames= (firstName, lastName)=>{
+    
+    return {firstName, lastName}}
 
-console.log(names)
+console.log(getNames())
 
-module.exports={
-    names
-}
+module.exports= getNames

@@ -1,14 +1,14 @@
-import names from "./names.js"
+import getNames from "./names.js"
 
-names;
 
-import hobbies from "./hobbies.js"
+import getHobbies from "./hobbies.js"
 
-hobbies;
 
-const peopleFunction = {
-    names,
-    hobbies
+
+const peopleFunction = ()=> {
+    return {
+    fullName: getNames (`Luca`, `Rossi`),
+    hobbies : getHobbies (`nuotare`, `camminare`, `correre`)}
 }
 
-console.log(peopleFunction)
+console.log(peopleFunction())

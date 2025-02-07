@@ -1,7 +1,6 @@
-const hobbies = [`hobbyOne`, ` hobbyTwo`, `hobbyThree`]
+const getHobbies = (hobbyOne, hobbyTwo, hobbyThree ) => {
+    return [hobbyOne,  hobbyTwo, hobbyThree]}
 
-console.log(hobbies)
+console.log(getHobbies())
 
-module.exports={
-    hobbies
-}
+module.exports= getHobbies
